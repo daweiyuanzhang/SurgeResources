@@ -3,7 +3,7 @@
 
 [Script]
 #WeChatAds By NobyDa
-WeChatAds = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chengbuyu/Modules/main/Surge/WeChat/WeChatAds.js,type=http-response,pattern=^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad
+WeChatAds = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/daweiyuanzhang/SurgeResources/main/WeChat/WeChatAds.js,type=http-response,pattern=^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad
 
 [MITM]
 hostname = mp.weixin.qq.com
