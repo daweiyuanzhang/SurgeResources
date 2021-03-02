@@ -3,7 +3,7 @@
 #!system=ios
 
 [Script]
-EmbyPremiere.js = type=http-response,pattern=^https?:\/\/mb3admin.com\/admin\/service\/registration\/validateDevice,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chengbuyu/Modules/main/Surge/Emby/EmbyPremiere.js
+EmbyPremiere.js = type=http-response,pattern=^https?:\/\/mb3admin.com\/admin\/service\/registration\/validateDevice,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/daweiyuanzhang/SurgeResources/main/Surge/EmbyPremiere.js
 
 [MITM]
 hostname = %APPEND% mb3admin.com,www.mb3admin.com
